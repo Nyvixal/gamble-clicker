@@ -9,6 +9,7 @@ body {
    min-height: 100vh;
    width: 100vw;
    background-image: url("bg-repeating.jpg");
+   background-size: 4rem;
    font-size: 2rem;
 }
 
