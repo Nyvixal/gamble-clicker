@@ -12,18 +12,28 @@
     <body>
         <div class="page">
             <div>
-                <h3>Playing Corner</h1>
-                    <button id="clicker">Click me</button>
-                    <p id="number">0</p>
-                    <button id="multiPurchase">Buy Multiplier: 50 Punkte</button>
-                    <p id="multi">Multi: 0</p>
+                <h3>~~ Playing Corner ~~</h1>
+                    <div class="section">
+                        <span>Punkte: </span>
+                        <span id="number">0</span>
+                        <br>
+                        <button id="clicker">Click me</button>
+                    </div>
+                    <div class="section">
+                        <p id="multi">Multi: 0</p>
+                        <button id="multiPurchase">Buy Multiplier: 50 Punkte</button>
+                    </div>
+                    <div class="section">
+                        <button id="gambleShow" style="display: none;">Unlock gambling: 500 Punkte</button>
+                    </div>
             </div>
-            <button id="gambleShow" style="display: none;">Unlock gambling: 500 Punkte</button>
-            <div id="gambleDiv" style="display: none;">
-                <h3>Gambling Corner</h3>
-                <p>How much to gamble? <input id="gambleInput" type="text" size="10"> <button id="gambleMax">Maximum</button></p>
-                <button id="gambleButton">Gamble it!</button>
-                <p id="gambleResult"></p>
+            <div id="gambleDiv">
+                <h3>~~ Gambling Corner ~~</h3>
+                <div class="section">
+                    <p>How much to gamble? <input id="gambleInput" type="text" size="10"> <button id="gambleMax">Maximum</button></p>
+                    <button id="gambleButton">Gamble it!</button>
+                    <p id="gambleResult"></p>
+                </div>
             </div>
         </div>
     </div>
