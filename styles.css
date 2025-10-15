@@ -1,0 +1,32 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: "Girassol", serif;
+}
+
+body {
+   min-height: 100vh;
+   width: 100vw;
+   background-image: url("bg-repeating.jpg");
+   font-size: 2rem;
+}
+
+button {
+   padding: .2rem .9rem;
+   border-radius: 2rem;
+   font-size: 1.6rem;
+   border: solid .3rem goldenrod;
+   background-color: yellow;
+   box-shadow: 0 .1rem .6rem yellow;
+}
+
+h3 {
+   margin-bottom: .6rem;
+}
+
+p,
+h3 {
+   color: #fff;
+   -webkit-text-stroke: .04rem #000;
+}
